@@ -27,7 +27,6 @@ togglePassword.addEventListener('click', function (e) {
 });
 
 form.addEventListener('submit',function(e){
-    e.preventDefault;
     if (password.value === ''){
         showError(password, 'Password is required');
     }else{
